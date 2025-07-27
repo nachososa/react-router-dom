@@ -2,7 +2,10 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
 // Modificar según exercises
-import App from './exercises/spa/App';
+// import App from './exercises/spa/App';
+import App from './exercises/basic-routes/App';
+//import BrowserApp from './exercises/configuracion/BrowserApp';
+// import HashApp from './exercises/configuracion/HashApp';
 
 // Obtener el contenedor raíz del DOM
 const container = document.getElementById('root');

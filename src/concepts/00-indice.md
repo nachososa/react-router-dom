@@ -1,6 +1,6 @@
 # React Router | Índice Temático
 
-## Unidad 1. Conceptos Fundamentales
+## Conceptos Fundamentales
 
 1. Aplicación SPA
 Introducción al concepto de Single Page Application.
@@ -15,8 +15,8 @@ Controlar la navegación en una SPA.
 Evitar recargas de página.
 Habilitar rutas declarativas y navegación dinámica.
 
-4. Instalación y configuración inicial (react-router-dom)
-npm install react-router-dom
+4. Instalación y configuración inicial (`react-router-dom`)
+Para habilitar el enrutamiento en una aplicación React, se requiere instalar el paquete `react-router-dom`, el cual proporciona los componentes y utilidades necesarias para gestionar rutas de forma declarativa en una SPA.
 
 5. Configuración de BrowserRouter o HashRouter
 Comparativa de las dos opciones principales para el router:

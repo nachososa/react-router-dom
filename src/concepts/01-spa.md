@@ -38,7 +38,7 @@ Las SPA son ideales para soluciones que requieren interfaces de alta interactivi
 - Aplicaciones financieras
 - Redes sociales y sistemas de mensajería
 
-### Tecnología Relacionada: React y React Router
+### Tecnología Relacionada
 
 La biblioteca **React** proporciona un ecosistema ideal para el desarrollo de SPA debido a su enfoque basado en componentes, su virtual DOM eficiente y su modelo de actualización reactivo.
 

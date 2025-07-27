@@ -1,4 +1,6 @@
-# React Router | Teoría y Práctica
+# React Router
+
+## Guía teorica y práctica
 
 Este proyecto contiene una serie de ejemplos organizados por nivel de dificultad y concepto, para aprender y practicar el uso de **React Router DOM** en una aplicación React moderna.
 
