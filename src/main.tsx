@@ -1,11 +1,12 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-// Modificar según exercises
-// import App from './exercises/spa/App';
-import App from './exercises/basic-routes/App';
-//import BrowserApp from './exercises/configuracion/BrowserApp';
-// import HashApp from './exercises/configuracion/HashApp';
+// Modificar según examples
+// import Spa from './examples/Spa';
+// import BasicRoutes1 from './examples/BasicRoutes1';
+import BasicRoutes2 from './examples/BasicRoutes2';
+// import RouterBrowser from './examples/RouterBrowser';
+// import RouterHash from './examples/RouterHash';
 
 // Obtener el contenedor raíz del DOM
 const container = document.getElementById('root');
@@ -17,6 +18,6 @@ if (!container) {
 // Crear la raíz de React y renderizar la aplicación
 createRoot(container).render(
   <StrictMode>
-    <App />
+    <BasicRoutes2 />
   </StrictMode>
 );

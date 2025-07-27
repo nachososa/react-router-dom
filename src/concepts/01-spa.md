@@ -1,4 +1,4 @@
-# SPA y React Router
+# SPA
 
 ## Definición y Características Principales
 

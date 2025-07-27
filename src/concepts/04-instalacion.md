@@ -2,11 +2,11 @@
 
 ## Requisitos previos
 
-Antes de proceder, se debe contar con un entorno de desarrollo basado en React, preferentemente configurado mediante una herramienta moderna como Vite, utilizando JSX y SWC como transformador. Esta base garantiza compatibilidad con los módulos ES modernos y una experiencia de desarrollo optimizada.
+Antes de pasar a la instalación, es necesario contar con un entorno de desarrollo basado en React, preferentemente configurado mediante una herramientas modernas como Next.js, Create React App (CRA), Parcel o Webpack. Esta base garantiza compatibilidad con los módulos ES modernos y una experiencia de desarrollo optimizada.
 
 ## Instalación del paquete principal
 
-Para incorporar React Router en el proyecto, es necesario instalar el paquete `react-router-dom`, el cual contiene todos los componentes necesarios para implementar navegación en entornos web. Ejecutar el siguiente comando en la raíz del proyecto:
+Para incorporar React Router en el proyecto, es necesario instalar el paquete `react-router-dom`, el cual contiene todos los componentes necesarios para implementar navegación en entornos web.
 
 ```bash
 npm install react-router-dom

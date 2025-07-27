@@ -24,13 +24,9 @@ El enrutador evalúa la URL actual y determina qué componente debe mostrarse en
 
 Este modelo permite mantener una arquitectura clara, predecible y fácilmente ampliable, alineada con las mejores prácticas del desarrollo moderno de aplicaciones web.
 
-En resumen, incorporar React Router en una SPA representa una decisión técnica clave para garantizar la navegabilidad, modularidad y experiencia de usuario, manteniendo a su vez la eficiencia del renderizado sin recarga de página.
-
-## Conceptos Básicos
-
 React Router es una biblioteca esencial para el manejo de rutas en aplicaciones desarrolladas con React, especialmente en aplicaciones SPA (Single Page Application). Su propósito principal es controlar la navegación interna sin la necesidad de recargar la página completa, mejorando así la experiencia del usuario y el rendimiento de la aplicación.
 
----
+En resumen, incorporar React Router en una SPA representa una decisión técnica clave para garantizar la navegabilidad, modularidad y experiencia de usuario, manteniendo a su vez la eficiencia del renderizado sin recarga de página.
 
 ## Componentes principales
 
@@ -56,8 +52,6 @@ React Router es una biblioteca esencial para el manejo de rutas en aplicaciones 
   - `path`: especifica la URL que debe coincidir para activar la ruta.
   - `element`: define el componente React que se debe renderizar cuando la URL coincide con el `path`.
 
----
-
 ## Flujo general
 
 1. En el archivo de entrada (por ejemplo, `main.jsx`), se monta el componente raíz mediante `createRoot(...).render(<App />)`.
@@ -68,24 +62,18 @@ React Router es una biblioteca esencial para el manejo de rutas en aplicaciones 
 6. Al hacer clic en un `<Link>`, la URL cambia sin recarga, React Router vuelve a evaluar las rutas.
 7. Se renderiza el nuevo componente correspondiente a la ruta actual.
 
----
-
 ## Separación de responsabilidades
 
 - El componente `<Link>` se encarga exclusivamente de cambiar la URL en el navegador sin recargar la página.
 - El componente `<Route>` con su propiedad `path` escucha la URL y determina si debe renderizar el componente especificado en `element`.
 - Si no existe un `<Route>` que coincida con la URL actual, no se renderiza ningún componente, incluso si la URL cambia.
-- Esta separación es clave para comprender el funcionamiento interno del enrutamiento en React Router.
-
----
+- Esta separación sirve para comprender el funcionamiento interno del enrutamiento en React Router.
 
 ## Metáfora conceptual: Llave y cerradura
 
 - `<Link to="/about">`: funciona como una llave que cambia la URL a `/about`.
 - `path="/about"` en `<Route>`: actúa como una cerradura que detecta cuando la URL coincide con `/about`.
 - `element={<About />}`: representa lo que se muestra al abrir la cerradura (renderizar el componente asociado).
-
----
 
 ## Método `.map()` en JavaScript aplicado a React Router
 
