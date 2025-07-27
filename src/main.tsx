@@ -4,9 +4,10 @@ import { createRoot } from 'react-dom/client';
 // Modificar según examples
 // import Spa from './examples/Spa';
 // import BasicRoutes1 from './examples/BasicRoutes1';
-import BasicRoutes2 from './examples/BasicRoutes2';
+// import BasicRoutes2 from './examples/BasicRoutes2';
 // import RouterBrowser from './examples/RouterBrowser';
 // import RouterHash from './examples/RouterHash';
+import NavLink from './examples/NavLink';
 
 // Obtener el contenedor raíz del DOM
 const container = document.getElementById('root');
@@ -18,6 +19,6 @@ if (!container) {
 // Crear la raíz de React y renderizar la aplicación
 createRoot(container).render(
   <StrictMode>
-    <BasicRoutes2 />
+    <NavLink />
   </StrictMode>
 );
