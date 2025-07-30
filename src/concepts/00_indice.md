@@ -34,10 +34,13 @@ Uso del componente `<Outlet />` para renderizar contenido según la ruta.
 9. Query Strings con useSearchParams()
 Manejo de parámetros en la URL: Leer y modificar parámetros usando el hook useSearchParams(). Casos comunes: filtros, búsquedas, paginación.
 
-10. Navegación programática con useNavigate()
+10. Redirecciones declarativas
+El componente `<Navigate />` permite redirigir al usuario automáticamente desde una ruta a otra, de forma declarativa.
+
+11. Navegación programática con useNavigate()
 Uso del hook useNavigate() para redireccionar por código, por ejemplo: Después de enviar un formulario. Tras un login exitoso.
 
-11. (Opcional) Introducción a createBrowserRouter y RouterProvider
+12. (Opcional) Introducción a createBrowserRouter y RouterProvider
 Presentación de la API avanzada de React Router (Data Router): Uso de createBrowserRouter() para definir rutas con loaders y actions. Integración con RouterProvider. Ideal para proyectos más estructurados con necesidades de carga de datos por ruta.
 
 ## Rutas Avanzadas y Dinámicas
