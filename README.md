@@ -8,7 +8,7 @@ Cada carpeta dentro de `src/router/` representa una unidad práctica o concepto,
 
 ## Objetivo
 
-Este proyecto busca ser una guía práctica y progresiva para aprender y dominar el enrutamiento con React Router, reforzando los fundamentos de SPAs modernas, navegación declarativa, rutas protegidas y carga eficiente de vistas.
+Guía teórica y práctica, progresiva, para aprender y dominar el enrutamiento con React Router, reforzando los fundamentos de SPAs modernas, navegación declarativa, rutas protegidas y carga eficiente de vistas.
 
 ## Tecnologías
 
