@@ -28,7 +28,11 @@ function About() {
 export default function App() {
   return (
     <BrowserRouter>
-      <nav style={{ padding: '1rem', borderBottom: '1px solid #ccc' }}>
+      <nav style={{
+        padding: '1rem',
+        backgroundColor: 'rgb(240,240,240)',
+        borderBottom: '1px solid #ccc'
+      }}>
         <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
         <Link to="/about">About</Link>
       </nav>

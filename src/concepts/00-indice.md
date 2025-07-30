@@ -2,18 +2,14 @@
 
 ## Conceptos Fundamentales
 
-1. Aplicación SPA
-Introducción al concepto de Single Page Application.
-Una aplicación que carga una sola vez en el navegador y actualiza el contenido dinámicamente sin recargar la página completa.
+1. Aplicaciones SPA
+Introducción al concepto de Single Page Application. Una aplicación que carga una sola vez en el navegador y actualiza el contenido dinámicamente sin recargar la página completa.
 
 2. Introducción a React Router
 Explicación inicial sobre cómo funciona una app React sin rutas (SPA sin navegación) y por qué es importante manejar el enrutamiento en una aplicación moderna.
 
 3. ¿Qué es React Router y por qué usarlo?
-Presentación de React Router como solución para:
-Controlar la navegación en una SPA.
-Evitar recargas de página.
-Habilitar rutas declarativas y navegación dinámica.
+Presentación de React Router como solución para: Controlar la navegación en una SPA, evitar recargas de página y habilitar rutas declarativas y navegación dinámica.
 
 4. Instalación y configuración inicial (`react-router-dom`)
 Para habilitar el enrutamiento en una aplicación React, se requiere instalar el paquete `react-router-dom`, el cual proporciona los componentes y utilidades necesarias para gestionar rutas de forma declarativa en una SPA.
@@ -23,9 +19,8 @@ Comparativa de las dos opciones principales para el router:
 HashRouter: ideal para despliegues en hosting estático sin soporte de redirecciones.
 BrowserRouter: genera URLs más limpias, pero requiere configuración en el servidor (rewrites para SPA).
 
-6. Rutas Básicas (Estáticas)
-Definición y creación de rutas simples como /home, /about, etc.
-Introducción al componente `<Route />` y su uso dentro de `<Routes />`.
+6. Rutas Estáticas
+Definición y creación de rutas simples como /home, /about, etc. Introducción al componente `<Route />` y su uso dentro de `<Routes />`.
 
 7. Componentes Link y NavLink para navegación
 Uso de enlaces declarativos para navegar entre páginas:
@@ -33,25 +28,17 @@ Link: navegación básica sin recarga.
 NavLink: incluye estilos activos según la ruta actual (ideal para menús de navegación).
 
 8. Configuración de rutas para Home, About, Contact, etc.
-Ejemplo práctico con múltiples rutas y un layout general con:
-Navbar común a todas las vistas.
+Ejemplo práctico con múltiples rutas y un layout general con: Navbar común a todas las vistas.
 Uso del componente `<Outlet />` para renderizar contenido según la ruta.
 
 9. Query Strings con useSearchParams()
-Manejo de parámetros en la URL:
-Leer y modificar parámetros usando el hook useSearchParams().
-Casos comunes: filtros, búsquedas, paginación.
+Manejo de parámetros en la URL: Leer y modificar parámetros usando el hook useSearchParams(). Casos comunes: filtros, búsquedas, paginación.
 
 10. Navegación programática con useNavigate()
-Uso del hook useNavigate() para redireccionar por código, por ejemplo:
-Después de enviar un formulario.
-Tras un login exitoso.
+Uso del hook useNavigate() para redireccionar por código, por ejemplo: Después de enviar un formulario. Tras un login exitoso.
 
 11. (Opcional) Introducción a createBrowserRouter y RouterProvider
-Presentación de la API avanzada de React Router (Data Router):
-Uso de createBrowserRouter() para definir rutas con loaders y actions.
-Integración con RouterProvider.
-Ideal para proyectos más estructurados con necesidades de carga de datos por ruta.
+Presentación de la API avanzada de React Router (Data Router): Uso de createBrowserRouter() para definir rutas con loaders y actions. Integración con RouterProvider. Ideal para proyectos más estructurados con necesidades de carga de datos por ruta.
 
 ## Rutas Avanzadas y Dinámicas
 
@@ -122,19 +109,3 @@ Integración con estado global o contextos para controlar rutas y permisos.
 Pruebas unitarias y de integración en componentes de rutas (más avanzado).
 Migración de versiones (para proyectos legacy, si aplica).
 Pero para un plan de aprendizaje y aplicación real, tu índice es muy sólido y ordenado.
-
-## Tecnologías
-
-- React 19
-- Vite
-- React Router DOM (a instalar)
-- ESLint (con soporte para hooks)
-
-## Playground: Índice de prácticas
-
-Cada sección contiene una demo funcional e independiente dentro de `src/router/`.
-
-```plaintext
-...
-Y, en main.jsx, simplemente se intercambia qué demo está montada.
-```

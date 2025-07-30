@@ -3,6 +3,7 @@
 // Este enfoque desacopla la lógica de rutas de la estructura JSX de <Routes />.
 // Es decir, separa las responsabilidades.
 // La lista de elementos <Route /> se generan dinámicamente.
+// Aquí se externaliza la configuración de rutas en un array de objetos (routes), separando la lógica del JSX.
 
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -42,7 +43,11 @@ export default function App() {
   return (
     <BrowserRouter>
 
-      <nav style={{ padding: '1rem', borderBottom: '1px solid #ccc' }}>
+      <nav style={{
+        padding: '1rem',
+        backgroundColor: 'rgb(240,240,240)',
+        borderBottom: '1px solid #ccc'
+      }}>
         <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
         <Link to="/about">About</Link>
       </nav>
