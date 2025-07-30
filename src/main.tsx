@@ -10,8 +10,11 @@ import { createRoot } from 'react-dom/client';
 // import E6_Rutas_Estaticas_Acopladas from './examples/E6_Rutas_Estaticas_Acopladas'
 // import E7_Rutas_Estaticas_Desacopladas from './examples/E7_Rutas_Estaticas_Desacopladas'
 // import E8_Navigate from './examples/E8_Navigate'
-import E9_Navigate_NavLink from './examples/E9_Navigate_NavLink'
-
+// import E9_Navigate_NavLink from './examples/E9_Navigate_NavLink'
+// import E10_useParams from './examples/E10_useParams'
+// import E11_useParams_Validacion from './examples/E11_useParams_Validacion'
+// import E12_useParams_Slug from './examples/E12_useParams_Slug'
+import E13_QueryString from './examples/E13_QueryString'
 
 // Obtener el contenedor raíz del DOM
 const container = document.getElementById('root');
@@ -23,6 +26,6 @@ if (!container) {
 // Crear la raíz de React y renderizar la aplicación
 createRoot(container).render(
   <StrictMode>
-    <E9_Navigate_NavLink />
+    <E13_QueryString />
   </StrictMode>
 );
